@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shubh Katha</title>
+<style>
+  :root {
+    --ink: #1a1830;
+    --paper: #faf6ef;
+    --accent: #b88c3e;
+    --muted: #5b5870;
+  }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); font-family: Georgia, "Times New Roman", serif; line-height: 1.65; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+  header { text-align: center; margin-bottom: 48px; }
+  header img { width: 160px; height: 160px; border-radius: 28px; box-shadow: 0 10px 30px rgba(26,24,48,0.18); }
+  h1 { font-size: 2.2rem; margin: 16px 0 8px; letter-spacing: 0.04em; }
+  .tagline { color: var(--muted); font-style: italic; margin-top: 0; }
+  nav { margin: 32px 0; text-align: center; }
+  nav a { display: inline-block; margin: 0 12px; color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  nav a:hover { border-color: var(--accent); }
+  main p { margin: 16px 0; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(26,24,48,0.12); color: var(--muted); font-size: 0.9rem; text-align: center; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="Shubh Katha diya icon">
+    <h1>Shubh Katha</h1>
+    <p class="tagline">Stories from Hindu mythology, one auspicious day at a time.</p>
+  </header>
+
+  <main>
+    <p>
+      Shubh Katha is an independent desktop creator tool used by a single
+      publisher to produce and share short-form Hindu mythology videos on
+      social platforms including TikTok and YouTube. The tool runs locally
+      on the creator&rsquo;s own computer and does not offer public accounts,
+      user-generated content, or any service directly exposed to third
+      parties.
+    </p>
+    <p>
+      The pages below describe the terms under which the Shubh Katha
+      software is made available and the (very limited) data it handles.
+    </p>
+  </main>
+
+  <nav>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:vybhav2015@gmail.com">Contact</a>
+  </nav>
+
+  <footer>
+    &copy; <span id="y"></span> Shubh Katha. Made with care in India.
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  </footer>
+</div>
+</body>
+</html>
